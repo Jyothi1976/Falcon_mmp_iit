@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test name="Test">
+<parameter name ="url" value="http://www.google.com"/>
+<Parameter name="title" value="Google"/>
+<classes>
+ <class name="org.iit.mmp.Falcon_mmp_iit.GoogleTest"/>
+</classes>
+</test> <!--Test -->
+</suite> <!-- Suite -->
