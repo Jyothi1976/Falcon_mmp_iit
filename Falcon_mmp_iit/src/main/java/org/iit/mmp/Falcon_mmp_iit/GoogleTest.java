@@ -12,7 +12,7 @@ public class GoogleTest {
 	 public void verifyTitle(String url, String title)
 	{
 	  WebDriver driver = new ChromeDriver();
-	driver.get(url);
+	driver.get(url);;
 	String actual = driver.getTitle();
 	String expected = title;
 	 Assert.assertEquals(actual,expected);
